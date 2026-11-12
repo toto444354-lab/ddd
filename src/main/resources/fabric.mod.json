@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "majin_vegeta",
+  "version": "${version}",
+  "name": "Majin Vegeta Self Destruct",
+  "description": "Anime-style Majin Vegeta self-destruct charge and explosion for Fabric 1.21.1.",
+  "authors": ["toto444354-lab"],
+  "contact": {
+    "homepage": "https://github.com/toto444354-lab/majin-vegeta-self-destruct"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.toto444354.majin.MajinVegetaMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
+
